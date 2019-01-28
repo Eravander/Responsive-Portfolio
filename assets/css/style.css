@@ -220,17 +220,21 @@ position: relative;
 }
 
 	#nametag{
-	position: relative;
+	position: static;
 	width: 100%;
 	padding: 0 25%;
 }
 nav{
-	position: relative;
+	position: static;
 	width: 100%;
 	padding: 0 25%;
 	float: bottom;
 }
 .work{
 	width: 100%;
+}
+#headshot{
+	clear: both;
+	width: 90%;
 }
  }
