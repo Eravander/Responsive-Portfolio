@@ -52,7 +52,7 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: #999;
-	margin-left: 20px;
+	padding-right: 10px;
 	line-height: 22px;
 	padding-left: 20px;
 	border-left: 1px solid #ddd;
@@ -191,7 +191,6 @@ input[type=text], select, textarea {
 }
 nav{
 	padding-right: 5%;
-	padding-left: 5%;
 }
 .work{
 	width: 40%;
