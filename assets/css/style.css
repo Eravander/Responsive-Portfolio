@@ -222,12 +222,12 @@ position: relative;
 	#nametag{
 	position: static;
 	width: 100%;
-	padding: 0 25%;
+	padding: 0 20%;
 }
 nav{
 	position: static;
 	width: 100%;
-	padding: 0 25%;
+	padding: 0 20%;
 	float: bottom;
 }
 .work{
