@@ -1,0 +1,236 @@
+
+body {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	background-repeat: repeat;
+	background-image: url(../images/prism.png);
+	padding-bottom: 60px;
+	
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+#nametag {
+	clear: both;
+	float: left;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-family: "Georgia";
+	font-size: 30px;
+	padding: 0 40px;
+	line-height: 90px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header {
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #ccc;
+}
+
+
+nav	{
+	float: right;
+	padding-right: 10px;
+}
+
+nav ul li:first-child a {
+	border-left: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 90px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #999;
+	margin-left: 20px;
+	line-height: 22px;
+	padding-left: 20px;
+	border-left: 1px solid #ddd;
+}
+
+
+ul {
+	list-style:none;
+}
+
+
+#main {
+	width: 1036px;
+	background-color: #fff;
+	padding: 30px;
+	padding-left: 50px;
+	border: 1px solid #ddd;
+}
+
+#title {
+    color: #4aaaa5;
+    border-bottom:	3px solid #dddddd;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+		padding-bottom: 30px;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: left;
+  }
+
+#headshot {
+  float: left;
+  margin: 30px;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+.space {
+	width: 1040px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+
+
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+	overflow: auto;
+	margin-right: 40px;
+}
+
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+/* Contact CSS taken and changed from W3 Schools */
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px;   
+	border: 1px solid #ddd; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: crosshair;
+  }
+  
+  /* I really like purple and wanted to play with the hover feature we learned also wanted to play with the cursor feature above*/
+  input[type=submit]:hover {
+	background-color: purple;
+  }
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	line-height: 30px;
+	font-size: 8px;
+}
+
+@media screen and (max-width:980px){
+	#main{
+	width: 75%;
+	margin-left: 5%;
+}
+.space{
+	width: 90%;
+}
+nav{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.work{
+	width: 40%;
+}
+}
+
+@media screen and (max-width:768px){
+	#main{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.space{
+		width: 100%;
+	}
+	.work{
+		width: 40%;
+	}
+	}
+
+@media screen and (max-width:640px){
+#header{
+	width: 100%;
+}
+.space{
+position: relative;
+}
+
+	#nametag{
+	position: relative;
+	width: 100%;
+	padding: 0 25%;
+}
+nav{
+	position: relative;
+	width: 100%;
+	padding: 0 25%;
+	float: bottom;
+}
+.work{
+	width: 100%;
+}
+ }
