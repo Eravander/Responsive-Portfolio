@@ -87,6 +87,11 @@ ul {
   margin: 30px;
 }
 
+img {
+	width: 275px;
+	height: 250px;
+}
+
 p {
 	display: block;
 	margin-block-start: 1em;
@@ -141,7 +146,7 @@ p {
 }
 
 
-/* Contact CSS taken and changed from W3 Schools */
+
 input[type=text], select, textarea {
 	width: 100%; 
 	padding: 12px;   
